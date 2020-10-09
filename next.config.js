@@ -4,6 +4,6 @@ module.exports = {
   exportPathMap: () => ({
     '/': { page: '/' },
   }),
-  assetPrefix: isProd ? '/sample-frontend-react' : '',
+  assetPrefix: isProd ? '/sample-frontend-react/raw/gh-pages' : '',
 };
 
