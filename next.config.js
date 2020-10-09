@@ -1,9 +1,7 @@
 const debug = process.env.NODE_ENV !== 'production'
 
 module.exports = {
-  exportPathMap: () => ({
-    '/': { page: '/' },
-  }),
-  assetPrefix: !debug ? '/sample-frontend-react/' : '',
+  generateBuildId: async () => 'current',
+  assetPrefix: !debug ? '/sample-frontend-react' : '',
 };
 
