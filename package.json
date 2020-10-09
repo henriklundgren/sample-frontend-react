@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "private": true,
+  "homepage": "https://henriklundgren.github.io/sample-frontend-react/",
   "scripts": {
     "start": "next",
     "build": "next build && next export -o dist",
