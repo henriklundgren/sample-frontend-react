@@ -1,0 +1,32 @@
+{
+  "name": "worksample-frontend",
+  "version": "1.0.0",
+  "description": "This repository contains everything you will need to create your worksample when applying as a frontend developer at Odd Hill.",
+  "main": "index.js",
+  "scripts": {
+    "start": "next",
+    "build": "next build && next export -o dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oddhill/worksample-frontend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oddhill/worksample-frontend/issues"
+  },
+  "homepage": "https://github.com/oddhill/worksample-frontend#readme",
+  "devDependencies": {
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/data-grid": "^4.0.0-alpha.6",
+    "@material-ui/icons": "^4.9.1",
+    "http-server": "^0.12.3",
+    "next": "^9.5.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "dependencies": {}
+}
