@@ -6,7 +6,7 @@
   "scripts": {
     "start": "next",
     "build": "next build && next export -o dist",
-    "deploy": "npm run build && gh-pages -d dist",
+    "deploy": "npm run build && touch dist/.nojekyll && gh-pages -d dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

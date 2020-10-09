@@ -1,9 +1,9 @@
-const isProd = (process.env.NODE_ENV || 'production') === 'production'
+const debug = process.env.NODE_ENV !== 'production'
 
 module.exports = {
   exportPathMap: () => ({
     '/': { page: '/' },
   }),
-  assetPrefix: isProd ? '/sample-frontend-react/raw/gh-pages' : '',
+  assetPrefix: !debug ? '/sample-frontend-react/' : '',
 };
 
